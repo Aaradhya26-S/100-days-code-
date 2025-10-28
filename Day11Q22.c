@@ -1,5 +1,5 @@
 // Write a program to find profit or loss percentage given cost price and selling price.
-#include <Stdio.h>
+#include <stdio.h>
 int main() {
     float costPrice, sellingPrice, percentage;
     printf("Enter cost price: ");
@@ -18,4 +18,5 @@ int main() {
         printf("No profit, no loss.\n");
     }
     return 0;
+
 }
