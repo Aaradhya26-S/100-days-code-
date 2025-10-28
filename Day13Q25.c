@@ -1,5 +1,5 @@
 // Write a program to implement a basic calculator using switch-case for +, -, *, /, %.
-#include <Stdio.h>
+#include <stdio.h>
 int main() {
     char op;
     int num1, num2, result;
@@ -39,4 +39,5 @@ int main() {
             printf("Invalid operator\n");
     }
     return 0;
+
 }
