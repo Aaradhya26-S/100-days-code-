@@ -1,5 +1,5 @@
 // Write a program to input a year and check whether it is a leap year or not using conditional statement
-#include <Stdio.h>
+#include <stdio.h>
 int main() {
 int year;
 //input year
@@ -15,4 +15,5 @@ if (year % 400 ==0) {
     } else {
         printf("%d is not leap year\n", year);
     }
+
 }
